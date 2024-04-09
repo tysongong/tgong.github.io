@@ -1,13 +1,17 @@
 strong{
-    color: darkblue;
+    color: dimgray;
     font-size: x-large;
     font-family: arial;
-    background-color: lightgray;
 }
 h1{
+    color: dimgray;
     font-family: arial;
 }
 h2{
-    color: green;
+    color: dimgray;
+    font-family: arial;
+}
+p{
+    color: dimgray;
     font-family: arial;
 }
