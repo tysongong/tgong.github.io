@@ -1,17 +1,17 @@
 strong{
     color: dimgray;
     font-size: x-large;
-    font-family: arial;
+    font-family: system-ui;
 }
 h1{
     color: dimgray;
-    font-family: arial;
+    font-family: system-ui;
 }
 h2{
     color: dimgray;
-    font-family: arial;
+    font-family: system-ui;
 }
 p{
     color: dimgray;
-    font-family: arial;
+    font-family: system-ui;
 }
