@@ -1,5 +1,5 @@
 strong{
-    color: dimgray;
+    color: gray;
     font-size: x-large;
     font-family: system-ui;
 }
@@ -7,20 +7,20 @@ nav{
     text-align: center;
 }
 h1{
-    color: dimgray;
+    color: gray;
     font-family: system-ui;
     text-align: center;
 }
 h2{
-    color: dimgray;
+    color: gray;
     font-family: system-ui;
 }
 p{
-    color: dimgray;
+    color: gray;
     font-family: system-ui;
 }
 footer{
-    background-color: dimgray;
+    background-color: gray;
 }
 a:link{ 
    color:dimgray;
