@@ -3,6 +3,9 @@ strong{
     font-size: x-large;
     font-family: system-ui;
 }
+nav{
+    text-align: center;
+}
 h1{
     color: dimgray;
     font-family: system-ui;
