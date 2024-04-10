@@ -22,3 +22,6 @@ p{
 footer{
     background-color: dimgray;
 }
+a:visited{ 
+   color:black;
+}
