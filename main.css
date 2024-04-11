@@ -7,7 +7,7 @@ nav{
     text-align: center;
 }
 h1{
-    color: gray;
+    color: #606060;
     font-family: system-ui;
     text-align: center;
 }
@@ -23,11 +23,11 @@ footer{
     background-color: gray;
 }
 a:link{ 
-   color:dimgray;
+   color:darkgray;
 }
 a:visited{ 
-   color:black;
+   color:slategray;
 }
 a:hover{
-   color: dimgray; 
+   color:darkslategray;
 }
