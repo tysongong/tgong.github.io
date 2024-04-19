@@ -1,33 +1,84 @@
+body{
+    background-color: gainsboro;
+}
+header{
+    text-align: center;
+}
 strong{
-    color: gray;
+    color: dimgray;
     font-size: x-large;
     font-family: system-ui;
 }
 nav{
-    text-align: center;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    padding: 10px;
+    font-family: system-ui;
+    color: darkgray;
 }
 h1{
-    color: #606060;
+    color: dimgray;
     font-family: system-ui;
-    text-align: center;
 }
+h1 a:link{
+    text-decoration: none;
+    color: dimgray;
+    font-family: system-ui;
+}
+h1 a:visited{ 
+    color:dimgray;
+ }
 h2{
-    color: gray;
+    color: dimgray;
     font-family: system-ui;
 }
 p{
-    color: gray;
+    color: dimgray;
     font-family: system-ui;
 }
 footer{
-    background-color: gray;
+    background-color: dimgray;
+    color: white;
 }
-a:link{ 
-   color:darkgray;
+nav a:link{ 
+    color:dimgray;
+    text-decoration: none;
 }
-a:visited{ 
-   color:slategray;
+nav a:visited{ 
+   color:black;
 }
-a:hover{
-   color:darkslategray;
+nav a:hover{
+   color: darkslategray;
+   background-color:lightgrey;
+   border-radius: 10px;
+   padding: 5px;
+}
+table{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: system-ui;
+    width: 80%;
+    padding-bottom: 5px;
+    padding-top: 18px;
+}
+td{
+    font-size: medium;
+}
+caption{
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    color: dimgray;
+}
+.current{
+    text-decoration: underline;
+}
+.text{
+    text-align: center;
+}
+.tcaption{
+    margin-left: 70px;
 }
