@@ -47,7 +47,7 @@ nav a:link{
     text-decoration: none;
 }
 nav a:visited{ 
-   color:black;
+   color:dimgray;
 }
 nav a:hover{
    color: darkslategray;
@@ -61,9 +61,16 @@ table{
     margin-right: 10%;
     font-family: system-ui;
     width: 80%;
-    padding-bottom: 5px;
-    padding-top: 18px;
+    padding-bottom: 2%;
+    padding-top: 5%;
 }
+table a:link{
+    color:black;
+    text-decoration: none;
+}
+table a:visited{ 
+    color:black;
+ }
 td{
     font-size: medium;
 }
@@ -80,5 +87,5 @@ caption{
     text-align: center;
 }
 .tcaption{
-    margin-left: 70px;
+    margin-left: 3%;
 }
