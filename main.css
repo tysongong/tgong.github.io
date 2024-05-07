@@ -29,7 +29,7 @@ h1 a:link{
 }
 h1 a:visited{ 
     color:dimgray;
- }
+}
 h2{
     color: dimgray;
     font-family: system-ui;
@@ -39,8 +39,9 @@ p{
     font-family: system-ui;
 }
 footer{
-    background-color: dimgray;
+    background-color: darkgray;
     color: white;
+    width: auto;
 }
 nav a:link{ 
     color:dimgray;
@@ -50,10 +51,7 @@ nav a:visited{
    color:dimgray;
 }
 nav a:hover{
-   color: darkslategray;
-   background-color:lightgrey;
-   border-radius: 10px;
-   padding: 5px;
+   text-decoration: underline;
 }
 table{
     margin-top: 5%;
@@ -65,14 +63,19 @@ table{
     padding-top: 5%;
 }
 table a:link{
-    color:black;
+    color: dimgray;
     text-decoration: none;
 }
 table a:visited{ 
-    color:black;
- }
+    color:dimgray;
+}
+table a:hover{
+    color:	#585858;
+    text-decoration: underline;
+}
 td{
     font-size: medium;
+    text-align: center;
 }
 caption{
     text-align: left;
@@ -81,11 +84,70 @@ caption{
     color: dimgray;
 }
 .current{
-    text-decoration: underline;
+    font-weight: bold;
 }
 .text{
     text-align: center;
 }
 .tcaption{
     margin-left: 3%;
+}
+button{
+    color: dimgray;
+    text-decoration: none;
+    font-family: system-ui;
+    border-radius: 10px;
+    padding: 5px;
+    float: right;
+    margin-right: 15%;
+    font-size: 14px;
+}
+main h2{
+    color: dimgray;
+    text-align: center;
+    font-size: x-large;
+    display: block;
+}
+#form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -10%);
+}
+.thankyou{
+    font-size: xx-large;
+    padding-top: 8%;
+    text-align: center;
+}
+.thankyou a:link{
+    color: dimgray;
+    font-size: large;
+}
+.thankyou a{
+    color: dimgray;
+    text-decoration: none;
+}
+.thankyou a:hover{
+    color: dimgray;
+    text-decoration: underline;
+}
+#submit{
+    color: dimgray;
+    text-decoration: none;
+    font-family: system-ui;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+article{
+    font-family: system-ui;
+    color: dimgray;
+    font-size: large;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    padding-top: 2%;
+    text-align: center;
+    transform: translate(-50%, -10%);
 }
