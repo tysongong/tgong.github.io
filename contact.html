@@ -8,18 +8,49 @@
     </head>
     <body>
         <header>
-            <h1>Aris.</h1>
+            <h1><a href="index.html">Aris</a></h1>
             <nav>
-                <p>
-                <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="trending.html">Trending</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="men.html">Men</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="women.html">Women</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="contact.html">Contact Us</a></p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trending.html">Trending</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <button onclick="window.alert('JS login and signup under construction')">Login / Sign up</button>
             </nav>
         </header>
         <main>
-
+            <br>
+            <h2>Contact Us</h2>
+		    <div id="form">
+		        <form action="thankyou.html" onsubmit="return validateForm();">
+		    <p>
+                <label for='Name'>Name:</label>
+              <br>
+                <input type="text" id="Name" name="Name" size="30">
+            </p>
+		    <p>
+                <label for='Email'>Email:</label>
+              <br>
+                <input type="text" id="Email" name="Email" size="30">
+            </p>
+		    <p>
+                <label for='Comments'>Comments:</label>
+              <br>
+                <input type="text" id="Comments" name="Comments" size="30">
+            </p>
+			<div class="warning" id="errorMessage"></div>
+		    <p>
+					<input type="submit" id="submit" name="submit" value="Submit">
+			</p>
+			<div class="warning" id="submiterror"></div>
+			<div id="errorMessages"></div>
+			</form>
+		    </div>
+		</div>
+		<script src="contact.js"></script>
         </main>
         <!--
         <footer>
