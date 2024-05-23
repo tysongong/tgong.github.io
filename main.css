@@ -1,5 +1,6 @@
 body{
     background-color: gainsboro;
+    margin-bottom: 4%;
 }
 header{
     text-align: center;
@@ -18,9 +19,10 @@ li{
     font-family: system-ui;
     color: darkgray;
 }
-h1{
+.logo{
     color: dimgray;
-    font-family: system-ui;
+    font-weight: bold;
+    margin-right: 2%;
 }
 h1 a:link{
     text-decoration: none;
@@ -54,11 +56,13 @@ nav a:hover{
    text-decoration: underline;
 }
 table{
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     margin-left: 10%;
     margin-right: 10%;
     font-family: system-ui;
     width: 80%;
+    text-align: center;
     padding-bottom: 2%;
     padding-top: 5%;
 }
@@ -83,14 +87,14 @@ caption{
     font-weight: bold;
     color: dimgray;
 }
-.current{
+#current{
     font-weight: bold;
 }
 .text{
     text-align: center;
 }
 .tcaption{
-    margin-left: 3%;
+    margin-left: 2%;
 }
 button{
     color: dimgray;
@@ -109,19 +113,20 @@ main h2{
     display: block;
 }
 #form{
-    position: absolute;
-    top: 30%;
-    left: 50%;
+    padding-top: 4%;
+    margin: auto;
+    width: 50%;
+    border: 3px;
     text-align: center;
-    transform: translate(-50%, -10%);
 }
 .thankyou{
     font-size: xx-large;
-    padding-top: 8%;
+    padding-top: 4%;
     text-align: center;
+    color: white;
 }
 .thankyou a:link{
-    color: dimgray;
+    color: white;
     font-size: large;
 }
 .thankyou a{
@@ -129,7 +134,7 @@ main h2{
     text-decoration: none;
 }
 .thankyou a:hover{
-    color: dimgray;
+    color: black;
     text-decoration: underline;
 }
 #submit{
@@ -150,4 +155,104 @@ article{
     padding-top: 2%;
     text-align: center;
     transform: translate(-50%, -10%);
+}
+.navbar-nav a:hover{
+    text-decoration: underline;
+    color: dimgray;
+}
+#leftmar{
+    margin-left:12%;
+}
+.nav-link{
+    margin-left: 20px;
+}
+.home-image{
+    position: relative;
+    background: url(https://tysongong.github.io/tgong.github.io/cpsc3700/mainbanner.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.men-image{
+    position: relative;
+    background: url(https://www.azcentral.com/gcdn/presto/2023/04/13/PPHX/c2917362-cae1-4707-a92a-588d5f9339c0-SU23_DEVIN_BOOKER_CHUCK_70_HIGH_WHITE_A05290C_B46A8471.jpg?crop=3824,3824,x0,y955) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.women-image{
+    position: relative;
+    background: url(https://s.abcnews.com/images/GMA/eilish-nike-2-ht-ps-210922_1632338445271_hpMain_16x9_1600.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.trending-image{
+    position: relative;
+    background: url(https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-08/nba-plain--aad71a25-eb8b-40ce-a446-e54336dd78ef.jpeg?itok=LrCWm8-B) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.contact-image{
+    position: relative;
+    background: url(https://i.pinimg.com/originals/da/03/12/da03120a9efb8c007da1f1a2bf7f091a.gif) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.about-image{
+    position: relative;
+    background: url(https://64.media.tumblr.com/112e616f8ee4b34ff28b7f8f004f1121/tumblr_pb7tmmj3zD1ro8ysbo1_500.gif) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.thankyou-image{
+    position: relative;
+    background: url(https://i.pinimg.com/originals/d7/d2/a9/d7d2a9bd81845505b072dcd81a503db5.gif) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+#about_body{
+    padding-top: 4%;
+    background-color: gainsboro;
+}
+#accordion-item{
+    background-color: gainsboro;
+}
+html{
+    background-color: gainsboro;
+}
+#accordionExample{
+	--bs-accordion-btn-color: black;
+	--bs-accordion-btn-bg: white;
+	--bs-accordion-active-color: black;
+	--bs-accordion-active-bg: white;
+    --bs-accordion-btn-color: black;
+}
+#contactimage{
+    color: black;
+}
+#aboutimage{
+    color: #696969;
 }
