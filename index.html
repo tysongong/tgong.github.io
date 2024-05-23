@@ -3,12 +3,13 @@
     <head>
         <title>Aris</title>
         <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="main.css" type="text/css">
         <link rel="icon" href="https://www.pngall.com/wp-content/uploads/15/Pochacco-PNG-Clipart.png">
     </head>
     <body>
-        <header>
-            <h1><a href="index.html">Aris</a></h1>
+        <!--<header>
+            <h1 class="logo"><a href="index.html">Aris</a></h1>
             <nav>
                 <ul>
                     <li class="current"><a href="index.html">Home</a></li>
@@ -18,26 +19,48 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
-                <button onclick="window.alert('JS login and signup under construction')">Login / Sign up</button>
             </nav>
-        </header>
+        </header>-->
+        <!--<h1 class="logo"><a href="#">Aris</a></h1>-->
+        <nav class="navbar navbar-expand-lg" style="background-color: gainsboro;">
+            <div class="container-fluid" id="leftmar">
+                <a class="navbar-brand" href="#"><img src="https://tysongong.github.io/tgong.github.io/cpsc3700/officiallogo.png" alt="logo" width="90px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                  <a class="nav-link" id="current" href="#">Home</a>
+                  <a class="nav-link" href="men.html">Men</a>
+                  <a class="nav-link" href="women.html">Women</a>
+                  <a class="nav-link" href="trending.html">Trending</a>
+                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </div>
+              </div>
+            </div>
+        </nav>
         <main>
+            <div class="home-image">
+                <div class="container">
+                </div>
+            </div>
             <table>
-                <caption class="tcaption">Top Sneakers for Summer 2024</caption>
+                <caption class="tcaption" style="caption-side: top">Top Sneakers of 2024</caption>
                 <tr>
                     <td >
                         <a href="https://takoutny.com/products/air-zoom-vomero-5-platinum-tint?_pos=2&_sid=afca0a815&_ss=r" target="_blank">
-                            <img src="https://takoutny.com/cdn/shop/files/AURORA_HF0731-007_PHSRH000-1000.png?v=1708384329" width="100%">
+                            <img src="https://takoutny.com/cdn/shop/files/AURORA_HF0731-007_PHSRH000-1000.png?v=1708384329" alt="Nike Vomero Platinum Tint" width="100%">
                         </a>
                     </td>
                     <td>
                         <a href="https://stockx.com/air-jordan-4-retro-bred-reimagined" target="_blank">
-                            <img src="https://image.goat.com/1000/attachments/product_template_pictures/images/097/769/093/original/1293064_00.png.png" width="100%">
+                            <img src="https://image.goat.com/1000/attachments/product_template_pictures/images/097/769/093/original/1293064_00.png.png" alt="Jordan 4 Bred" width="100%">
                         </a>
                     </td>
                     <td>
                         <a href="https://www.flightclub.com/samba-adv-white-college-green-gy6940" target="_blank">
-                            <img src="https://image.goat.com/1000/attachments/product_template_pictures/images/016/563/073/original/B75680.png.png" width="100%">
+                            <img src="https://image.goat.com/1000/attachments/product_template_pictures/images/016/563/073/original/B75680.png.png" alt="Green adidas Samba" width="100%">
                         </a>
                     </td>
                 </tr>
@@ -54,19 +77,19 @@
                 </tr>
             </table>
             <table>
-                <caption class="tcaption">Must have pants this Summer</caption>
+                <caption class="tcaption" style="caption-side: top">Must have pants this Summer</caption>
                 <tr>
                     <td>
                         <a href="https://golfwang.com/products/deuce-denim-short-by-golf-wang" target="_blank">
-                            <img src="https://tysongong.github.io/tgong.github.io/cpsc3700/SS24---DEUCE-DENIM-SHORT---BLACK---1.png" width="80%"></a>                   
+                            <img src="https://tysongong.github.io/tgong.github.io/golfwang.png" alt="Golfwang Denim Shorts" width="100%"></a>                   
                     </td>
                     <td>
                         <a href="https://www.abercrombie.com/shop/us/p/loose-workwear-pant-53955333?faceout=model&seq=52" target="_blank">
-                            <img src="https://tysongong.github.io/tgong.github.io/cpsc3700/KIC_130-3090-1229-336_prod1.png" width="100%"></a>
+                            <img src="https://tysongong.github.io/tgong.github.io/abercrombie.png" alt="Camo Abercrombie Loose Workwear Pants" width="100%"></a>
                     </td>
                     <td>
                         <a href="https://www.nocta.com/products/northstar-nylon-track-pant-black-cs" target="_blank">
-                        <img src="https://tysongong.github.io/tgong.github.io/cpsc3700/TRACKPANT-BLACK_1200x@2x.png" width="80%"></a>
+                        <img src="https://tysongong.github.io/tgong.github.io/nocta.png" alt="Black Nocta Track Pants" width="100%"></a>
                     </td>
                 </tr>
                 <tr>
@@ -82,10 +105,40 @@
                     </td>
                 </tr>
             </table>
+            <table>
+                <caption class="tcaption" style="caption-side: top">Outerwear Essentials</caption>
+                <tr>
+                    <td>
+                        <a href="https://www.newbalance.com/pd/athletics-french-terry-hoodie/MT41534.html" target="_blank">
+                            <img src="https://tysongong.github.io/tgong.github.io/cpsc3700/nb.png" alt="Heather Grey New Balance Hoodie" width="100%"></a>                   
+                    </td>
+                    <td>
+                        <a href="https://richiele.com/products/corduroy-overshirt-grey?pr_prod_strat=e5_desc&pr_rec_id=46aae6894&pr_rec_pid=7106214723673&pr_ref_pid=7458164637785&pr_seq=uniform" target="_blank">
+                            <img src="https://tysongong.github.io/tgong.github.io/cpsc3700/rl.png" alt="Grey Richie Le Collection Corduroy Overshirt" width="100%"></a>
+                    </td>
+                    <td>
+                        <a href="https://stockx.com/fear-of-god-essentials-hoodie-off-black" target="_blank">
+                        <img src="https://tysongong.github.io/tgong.github.io/cpsc3700/essentials.png" alt="Off Black Fear of God Essentials Hoodie" width="100%"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text">
+                        <a href="https://www.newbalance.com/pd/athletics-french-terry-hoodie/MT41534.html" target="_blank">New Balance Athletics French Terry Hoodie "Ash Heather"</a>
+                    </td>
+                    <td class="text">
+                        <a href="https://richiele.com/products/corduroy-overshirt-grey?pr_prod_strat=e5_desc&pr_rec_id=46aae6894&pr_rec_pid=7106214723673&pr_ref_pid=7458164637785&pr_seq=uniform" target="_blank">
+                            Richie Le Collection Corduroy Overshirt "Grey"</a>
+                    </td>
+                    <td class="text">
+                        <a href="https://stockx.com/fear-of-god-essentials-hoodie-off-black" target="_blank">Fear of God Essentials Hoodie "Off Black"</a>
+                    </td>
+                </tr>
+            </table>
         </main>
         <!--
         <footer>
             <p>Work in progress here.</p>
         </footer>-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
 </html>
